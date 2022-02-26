@@ -14,6 +14,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatDialogModule} from "@angular/material/dialog";
 import {MatButtonModule} from "@angular/material/button";
 import { AjoutproduitComponent } from './ajoutproduit/ajoutproduit.component';
+import { AjoutcategorieComponent } from './ajoutcategorie/ajoutcategorie.component';
+import { AjoutclientComponent } from './ajoutclient/ajoutclient.component';
+import { AjoutventeComponent } from './ajoutvente/ajoutvente.component';
+import { ChartventeComponent } from './chartvente/chartvente.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +28,11 @@ import { AjoutproduitComponent } from './ajoutproduit/ajoutproduit.component';
     ClientComponent,
     CategorieComponent,
     VenteComponent,
-    AjoutproduitComponent
+    AjoutproduitComponent,
+    AjoutcategorieComponent,
+    AjoutclientComponent,
+    AjoutventeComponent,
+    ChartventeComponent
   ],
   imports: [
     BrowserModule,
